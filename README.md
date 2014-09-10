@@ -1,4 +1,4 @@
 bTabs
 =====
 
-Super Simple jQuery Tabs
+jQuery Tabs Plugin on Diet.
