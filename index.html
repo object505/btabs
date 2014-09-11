@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bTabs DEMO</title>
+	<link rel="stylesheet" href="bTabs.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/demo.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="bTabs.js"></script>
+
+	<script>
+		jQuery(document).ready(function(){
+
+			//Default Options
+			jQuery('#btabs-demo').bTabs();
+
+			//Changed Options
+			jQuery('#bojan-tabs').bTabs({
+				startTab: 2,
+				activeClass: 'activebojan',
+		        tabsLinkClass: 'bojanlink',
+		        tabsContentClass: 'bojancontent',
+		        fadeSpeed: 200,
+		        showHash: false
+			});
+
+		});
+	</script>	
+</head>
+<body>
+	<header>
+		<div class="grid">
+			<div class="row">
+				<div class="c12">
+					<h2><span>b</span>Tabs Initial Demos</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div id="main">
+		<div class="section1">
+			<div class="grid">
+				<div class="row">
+					<div class="c12">
+						
+						<h3><span>b</span>Tabs with styling</h3>
+
+						<div id="btabs-demo" class="btabs flat">
+							<ul>
+								<li><a href="#tab1">Tab 1</a></li>
+								<li><a href="#tab2">Tab 2</a></li>
+								<li><a href="#tab3">Tab 3</a></li>
+								<li><a href="#tab4">Tab 4</a></li>
+							</ul>
+
+							<div id="tab1" >
+								<p>Tab 1 Content</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab2">			
+								<p>Tab 2 Content</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab3">
+								<p>Tab 3 Content</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab4">
+								<p>Tab 4 Content</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- End .section1 -->
+
+		<div class="section2">
+			<div class="grid">
+				<div class="row">
+					<div class="c12">
+					
+						<h3><span>b</span>Tabs without styling</h3>
+
+						<div id="bojan-tabs">
+							<ul>
+								<li><a href="#tab11">Tab 1</a></li>
+								<li><a href="#tab22">Tab 2</a></li>
+								<li><a href="#tab33">Tab 3</a></li>
+								<li><a href="#tab44">Tab 4</a></li>
+							</ul>
+
+							<div id="tab11">
+								<p>Tab 1 Content 2222</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab22">
+								<p>Tab 2 Conten 222222222t</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab33">
+								<p>Tab 3 Content 2222222222222</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+							<div id="tab44">
+								<p>Tab 4 Content 22222222222222</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique cum. Laborum optio quod, atque eum architecto recusandae accusantium adipisci, expedita esse error, cumque. Veritatis tempora reiciendis nostrum rem ad.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- End .section2 -->
+		
+		<div class="section3">
+			<div class="grid">
+				<div class="row">
+					<div class="c12">
+						<h3><span>b</span>Tabs demo code</h3>
+<pre>
+<code>
+//Default Options
+jQuery('#btabs-demo').bTabs();
+
+//Changed Options
+jQuery('#bojan-tabs').bTabs({
+	startTab: 2,
+	activeClass: 'activebojan',
+	tabsLinkClass: 'bojanlink',
+	tabsContentClass: 'bojancontent',
+	fadeSpeed: 200,
+	showHash: false
+});
+</code>
+</pre>
+					</div>
+				</div>
+			</div>
+		</div><!-- End .section3 -->
+
+	</div><!-- End #main -->
+
+	<footer>
+		<div class="grid">
+			<div class="row">
+				<div class="c12">
+					<p>More info @ <a href="https://github.com/object505/bTabs">https://github.com/object505/bTabs</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
