@@ -20,7 +20,7 @@ jQuery('#btabs').bTabs();
 - [ ] Minify
 
 ## Author
-| ![twitter/brianmgonzalez](http://gravatar.com/avatar/30befed2bed6e1690a6b47cf617f7927?s=55](http://twitter.com/BojanPetkovski "Follow @BojanPetkovski on Twitter") |
+| ![twitter/BojanPetkovski](http://gravatar.com/avatar/30befed2bed6e1690a6b47cf617f7927?s=105](http://twitter.com/BojanPetkovski "Follow @BojanPetkovski on Twitter") |
 |---|
 | [Bojan Petkovski](http://object505.com) |
 
