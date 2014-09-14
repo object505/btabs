@@ -1,7 +1,7 @@
 bTabs
 =====
 
-*jQuery Tabs Plugin on Diet.
+jQuery Tabs Plugin on Diet.
 
 > Still work in progress :)
 
