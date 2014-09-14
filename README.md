@@ -6,7 +6,7 @@ jQuery Tabs Plugin on Diet.
 > Still work in progress :)
 
 ## Demo
-View initial [DEMO](http://object505.github.io/bTabs/)
+View initial [DEMO](http://object505.github.io/btabs/)
 
 ## Getting Started
 Getting started is super simple: include jQuery, include btabs, then:
