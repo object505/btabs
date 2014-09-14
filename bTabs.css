@@ -1,0 +1,58 @@
+.btabs.flat ul{	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.btabs.flat ul > li{
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	margin: 0 1.81818% 0 0;
+	cursor: default;
+	top: 1px;
+	-webkit-box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	box-shadow: 0 1px 0 white;
+}
+.btabs.flat ul > li > a {
+	display: block;
+	width: auto;
+	padding: 0 20px;
+	margin: 0;
+	color: #555555;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 1px solid #e5e5e5;
+	border-width: 1px 1px 0 1px;
+	text-shadow: 0 1px 1px white;
+	background: #f2f2f2;
+	cursor: pointer;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-ms-border-radius: 5px 5px 0 0;
+	-o-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	height: 42px;
+	line-height: 40px;
+}
+.btabs.flat ul > li > a:hover {
+	text-decoration: none;
+	background: whitesmoke;
+}
+.btabs.flat ul > li.active > a {
+	height: 43px;
+	line-height: 41px;
+	background: white;
+}
+
+.btabs.flat > div{
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	padding: 20px 10px;
+}

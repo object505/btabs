@@ -1,0 +1,110 @@
+/*
+*	Style for the initial demo of bTabs
+*
+*	https://github.com/object505/bTabs
+*
+*/
+
+/* Import Fonts */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Neuton);
+
+
+/* Main Style */
+h2{	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #555555;
+	font-size: 26px;
+	line-height: 32px;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	font-size: 20px;
+	line-height: 26px;
+	border-bottom: 1px solid #f5f5f5;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+h2 span,
+h3 span{
+	text-transform: lowercase;
+}
+.section1{
+	background: #8cb4b4;
+	padding: 30px 0;
+}
+.section2{
+	background: #57BB89;
+	padding: 30px 0;
+}
+.section3{
+	background: #999;
+	padding: 30px 0;
+}
+pre{
+	padding: 20px;
+	background: #f5f5f5;
+	color: #555555;
+	border-radius: 5px;
+}
+
+footer{
+	background: #555555;
+	color: #f5f5f5;	
+	padding: 20px;
+}
+footer p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 0px;
+}
+footer a{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+/* Grid Style */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+body{font-size:100%;line-height:1.6875}
+.grid{margin:0 auto;max-width:1020px;width:100%}
+img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
+
+.row{width:100%;}
+.row .row{width:auto;margin:0 -20px}
+.cl{width:20%; margin-bottom:40px;}
+.c1{width:8.33%}
+.c2{width:16.66%}
+.c3{width:25%}
+.c4{width:33.33%}
+.c5{width:41.66%}
+.c6{width:50%}
+.c7{width:58.33%}
+.c8{width:66.66%}
+.c9{width:75%}
+.c10{width:83.33%}
+.c11{width:91.66%}
+.c12{width:100%}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.cl{min-height:1px;float:left;padding-left:20px;padding-right:20px;position:relative}
+.s1{margin-left:8.33%}
+.s2{margin-left:16.66%}
+.s3{margin-left:25%}
+.s4{margin-left:33.33%}
+.s5{margin-left:41.66%}
+.s6{margin-left:50%}
+.s7{margin-left:58.33%}
+.s8{margin-left:66.66%}
+.s9{margin-left:75%}
+.s10{margin-left:83.33%}
+.s11{margin-left:91.66%}
+.end{float:right!important}
