@@ -26,5 +26,3 @@ jQuery('#btabs').bTabs();
 
 ## License
 bTabs is licensed under the [MIT License](http://object505.mit-license.org/)
-
-
