@@ -20,9 +20,11 @@ jQuery('#btabs').bTabs();
 - [ ] Minify
 
 ## Author
-| ![twitter/brianmgonzalez](https://pbs.twimg.com/profile_images/461587838656446464/ehGtrhDT_bigger.jpeg](http://twitter.com/BojanPetkovski "Follow @BojanPetkovski on Twitter") |
+| ![twitter/brianmgonzalez](http://gravatar.com/avatar/30befed2bed6e1690a6b47cf617f7927?s=55](http://twitter.com/BojanPetkovski "Follow @BojanPetkovski on Twitter") |
 |---|
 | [Bojan Petkovski](http://object505.com) |
 
 ## License
 bTabs is licensed under the [MIT License](http://www.tldrlegal.com/license/mit-license)
+
+
